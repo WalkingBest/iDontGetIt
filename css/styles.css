@@ -13,8 +13,10 @@
   #autor {
       margin-bottom: 0;
   }
-  #zacate {
+  #zacate, #flowey {
       visibility: hidden;
+      max-width: 100%;
+      height: auto;
   }
   #boton, #whatisthisboton {
       display: block;
@@ -38,9 +40,5 @@
     display: none;
   }
   #flowey {
-      visibility: hidden;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 70%;
+      max-width: 70%;
   }
