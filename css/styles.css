@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "DeterminationMonoWeb";
+    font-style: normal;
+    font-weight: 400;
+    src: local("DeterminationMonoWeb"), local("DeterminationMonoWeb"), url(../fonts/DeterminationMonoWeb.woff) format("woff");
+  }
+  body {
+      font-family: 'DeterminationMonoWeb';
+      background: #121212;
+      color: white;
+      text-align: center;
+  }
+  #autor {
+      margin-bottom: 0;
+  }
+  #zacate {
+      visibility: hidden;
+  }
+  #boton, #whatisthisboton {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: auto;
+      margin-top: 8px;
+      margin-bottom: 8px;
+  }
+  #whatisthisboton {
+      visibility: hidden;
+  }
+  .hidden {
+      visibility: hidden;
+  }
+  .divonform {
+      display: block;
+      margin-top: 5px;
+  }
+  #dummyframe {
+    display: none;
+  }
+  #flowey {
+      visibility: hidden;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+  }
